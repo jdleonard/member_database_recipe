@@ -1,0 +1,13 @@
+uuid: 2958d156-71ed-4bf9-9a03-c1f6554af1ac
+langcode: en
+status: true
+dependencies: {  }
+id: person
+label: Person
+description: 'A person who may be a member or a non-member.'
+help: ''
+new_revision: true
+revision_expose: false
+revision_log: false
+name_pattern: '[storage:field_first_name] [storage:field_last_name]'
+has_canonical: false

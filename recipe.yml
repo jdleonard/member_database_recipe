@@ -1,0 +1,9 @@
+name: 'Member Database Recipe'
+description: 'A simple member database.'
+type: 'Membership'
+recipes:
+  - membership_manager_recipe
+install:
+  - storage
+  - user
+  - views

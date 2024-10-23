@@ -1,0 +1,14 @@
+{
+  "name": "jdleonard/member_database_recipe",
+  "type": "drupal-recipe",
+  "description": "Demo recipe that provides a simple member database.",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/jdleonard/membership_manager_recipe.git"
+    }
+  ],
+  "require": {
+    "jdleonard/membership_manager_recipe": "dev-main"
+  }
+}

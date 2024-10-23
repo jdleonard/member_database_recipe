@@ -1,0 +1,23 @@
+uuid: 4093ee8d-2bb4-46c3-bef1-7057c810d5b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.storage.field_is_current_member
+    - storage.storage_type.person
+id: storage.person.field_is_current_member
+field_name: field_is_current_member
+entity_type: storage
+bundle: person
+label: 'Is current member'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean
