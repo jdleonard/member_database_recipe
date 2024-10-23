@@ -9,6 +9,7 @@
     }
   ],
   "require": {
+    "drupal/storage": "^1.4@beta",
     "jdleonard/membership_manager_recipe": "dev-main"
   }
 }

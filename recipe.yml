@@ -12,7 +12,7 @@ install:
 config:
   import:
     system:
-      // Necessary because we're providing menu link content for the admin menu.
+      # Necessary because we're providing menu link content for the admin menu.
       - system.menu.admin
   actions:
     user.role.membership_manager:
