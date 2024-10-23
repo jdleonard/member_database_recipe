@@ -1,0 +1,50 @@
+uuid: 1507d7a1-b3cb-4596-aab9-17ce451fa01e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.storage.person.field_first_name
+    - field.field.storage.person.field_is_current_member
+    - field.field.storage.person.field_last_name
+    - storage.storage_type.person
+id: storage.person.default
+targetEntityType: storage
+bundle: person
+mode: default
+content:
+  field_first_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  field_is_current_member:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  field_last_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -3
+    region: content
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+hidden:
+  user_id: true
