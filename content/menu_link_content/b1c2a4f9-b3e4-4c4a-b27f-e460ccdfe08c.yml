@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: b1c2a4f9-b3e4-4c4a-b27f-e460ccdfe08c
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Add member'
+  menu_name:
+    -
+      value: admin
+  link:
+    -
+      uri: 'internal:/storage/add/person'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -350
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: system.admin
+  revision_translation_affected:
+    -
+      value: true

@@ -4,6 +4,24 @@ type: 'Membership'
 recipes:
   - membership_manager_recipe
 install:
+  - menu_link_content
   - storage
+  - toolbar
   - user
   - views
+config:
+  import:
+    system:
+      // Necessary because we're providing menu link content for the admin menu.
+      - system.menu.admin
+  actions:
+    user.role.membership_manager:
+      grantPermissions:
+        - 'access administration pages'
+        - 'access storage overview'
+        - 'access toolbar'
+        - 'add person storage entities'
+        - 'delete any person storage entities'
+        - 'edit any person storage entities'
+        - 'view published person storage entities'
+        - 'view the administration theme'
