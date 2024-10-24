@@ -7,7 +7,6 @@ dependencies:
     - field.storage.storage.field_is_current_member
     - field.storage.storage.field_last_name
     - storage.storage_type.person
-    - system.menu.admin
     - user.role.membership_manager
   module:
     - storage
@@ -623,7 +622,7 @@ display:
       display_extenders: {  }
       path: member-list
       menu:
-        type: normal
+        type: none
         title: 'Member List'
         description: ''
         weight: -400
